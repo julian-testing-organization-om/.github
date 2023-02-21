@@ -1,0 +1,28 @@
+repositories:
+  default:
+    features:
+      has_issues: true
+      has_wiki: false
+      has_projects: false
+      has_downloads: true
+    merges:
+      allow_squash_merge: false
+      allow_merge_commit: true
+      allow_rebase_merge: true
+    issues:
+      auto_label:
+        - dev
+    branches:
+      main:
+        enforce_admins: false
+        required_status_checks:
+          require_review: true
+    dependency_security:
+      alerts: true
+      automatic_fixes: true
+  example_repo:
+    features:
+      has_issues: true
+      has_wiki: true
+      has_projects: true
+      has_downloads: false
