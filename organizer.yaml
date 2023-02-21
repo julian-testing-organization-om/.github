@@ -4,7 +4,7 @@ repositories:
       has_issues: true
       has_wiki: false
       has_projects: false
-      has_downloads: true
+      has_downloads: false
     merges:
       allow_squash_merge: false
       allow_merge_commit: true
