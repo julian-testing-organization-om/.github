@@ -26,8 +26,12 @@ repositories:
       has_wiki: true
       has_projects: true
       has_downloads: false
+
+labels_clean: true
+
 labels:
   # Built in labels.
+  
   - name: bugggg2
     description: "Something isn't working"
     color: d73a4a
